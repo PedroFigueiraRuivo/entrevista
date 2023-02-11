@@ -1,0 +1,73 @@
+#listagemProjetos {
+  padding: 180px 20px 100px;
+}
+
+.projects_box {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 32px;
+}
+
+.listagem_filter {
+  padding: 32px 20px;
+  border-radius: 8px;
+  background-color: rgb(231, 231, 231);
+  height: auto;
+}
+.listagem_filter li {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+.listagem_filter input {
+  margin-right: 4px;
+}
+
+.listagem_projetos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+  gap: 24px;
+}
+
+.listagem_projetos-project {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(51, 51, 51, 0.4);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.listagem_projetos-project .listagem_projetos-header {
+  max-height: 160px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.listagem_projetos-project .listagem_projetos-body,
+.listagem_projetos-project .listagem_projetos-footer {
+  padding: 0px 20px 20px;
+}
+.listagem_projetos-project .listagem-body--title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.listagem_projetos-project .listagem-body--title a {
+  color: rgb(68, 68, 68);
+}
+.listagem_projetos-project .listagem-body--category {
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: block;
+  color: rgb(148, 148, 148);
+}
+.listagem_projetos-project .listagem-body--description {
+  font-size: 16px;
+  color: rgb(68, 68, 68);
+}
+
+.listagem_projetos-project:hover {
+  box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.4);
+}/*# sourceMappingURL=listagem-projects.css.map */
