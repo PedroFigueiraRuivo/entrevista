@@ -1,0 +1,10 @@
+.page-post {
+  padding-top: 100px;
+}
+.page-post .post-img {
+  max-height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=single-post.css.map */
